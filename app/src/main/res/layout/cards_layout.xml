@@ -13,7 +13,6 @@
         android:id="@+id/txtHome"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_centerHorizontal="true"
         android:layout_margin="10dp"
         android:text="Home"
         android:textColor="#000"
@@ -63,9 +62,10 @@
                 android:textStyle="bold" />
 
             <ImageButton
+                android:id="@+id/btnSalvar"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="300dp"
+                android:layout_marginLeft="310dp"
                 android:layout_marginTop="80dp"
                 android:backgroundTint="#00000000"
                 android:src="@drawable/flag" />
@@ -122,7 +122,7 @@
             <ImageButton
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="300dp"
+                android:layout_marginLeft="310dp"
                 android:layout_marginTop="80dp"
                 android:backgroundTint="#00000000"
                 android:src="@drawable/flag" />
@@ -130,7 +130,7 @@
     </com.google.android.material.card.MaterialCardView>
 
     <com.google.android.material.card.MaterialCardView
-        android:id="@+id/crdSla2"
+        android:id="@+id/crdSlaa"
         android:layout_width="match_parent"
         android:layout_height="150dp"
         android:layout_marginTop="20dp">
@@ -179,7 +179,7 @@
             <ImageButton
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="300dp"
+                android:layout_marginLeft="310dp"
                 android:layout_marginTop="80dp"
                 android:backgroundTint="#00000000"
                 android:src="@drawable/flag" />
