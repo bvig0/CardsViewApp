@@ -129,4 +129,61 @@
         </RelativeLayout>
     </com.google.android.material.card.MaterialCardView>
 
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/crdSla2"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_marginTop="20dp">
+
+        <RelativeLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="centerCrop"
+                android:src="@drawable/campo" />
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:text="Rafael Lanches"
+                android:textColor="#1F1F1F"
+                android:textStyle="bold" />
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="250dp"
+                android:layout_marginTop="10dp"
+                android:text="06 de Setembro"
+                android:textColor="#1F1F1F" />
+
+            <TextView
+
+                android:layout_width="150dp"
+                android:layout_height="80dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="50dp"
+                android:text="Lugares mais verdes nos acalmam"
+                android:textColor="#1F1F1F"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="300dp"
+                android:layout_marginTop="80dp"
+                android:backgroundTint="#00000000"
+                android:src="@drawable/flag" />
+        </RelativeLayout>
+    </com.google.android.material.card.MaterialCardView>
+
 </LinearLayout>
