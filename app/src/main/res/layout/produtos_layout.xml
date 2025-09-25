@@ -11,9 +11,11 @@
     <com.google.android.material.appbar.AppBarLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
-
-        <com.google.android.material.navigation.NavigationView
+        <com.google.android.material.appbar.MaterialToolbar
             android:layout_width="match_parent"
+            app:menu="@menu/menu_crud"
+            app:title="CRUD"
+            app:navigationIcon="@drawable/icon_back"
             android:layout_height="?attr/actionBarSize"/>
 
     </com.google.android.material.appbar.AppBarLayout>
