@@ -13,8 +13,8 @@
         android:theme="@style/Theme.MyApp"
         tools:targetApi="31">
         <activity
-            android:name=".ProdutosActivity"
-            android:exported="true" >
+            android:name=".ViagensActivity"
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -22,13 +22,17 @@
             </intent-filter>
         </activity>
         <activity
+            android:name=".ItemActivity"
+            android:exported="true"/>
+        <activity
+            android:name=".ProdutosActivity"
+            android:exported="false" />
+        <activity
             android:name=".CardsActivity"
-            android:exported="true">
-
-        </activity>
+            android:exported="false" />
         <activity
             android:name=".MainActivity"
-            android:exported="true"/>
+            android:exported="false" />
     </application>
 
 </manifest>
