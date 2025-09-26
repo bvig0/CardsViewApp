@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
-    <item>
+    <item
+        android:id="@+id/mTituloEmail"
+        android:title="Mail">
         <menu>
             <item
                 android:id="@+id/mInBox"
@@ -21,6 +23,23 @@
                 android:id="@+id/mTrash"
                 android:icon="@drawable/icon_delete"
                 android:title="Trash" />
+        </menu>
+    </item>
+
+    <item
+        android:id="@+id/mInformation"
+        android:title="Information">
+        <menu>
+            <item
+                android:id="@+id/mContact"
+                android:icon="@drawable/icon_contacts"
+                android:title="Contact" />
+
+            <item
+                android:id="@+id/mLogout"
+                android:icon="@drawable/icon_exit"
+                android:title="Logout" />
+
         </menu>
     </item>
 </menu>
